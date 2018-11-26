@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="X-UA-compatible" content="IE=Edge">
+
+	<title> Contact Page </title>
+
+	<!-- fontawesome icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+     
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Expletus+Sans:700|Montserrat|Open+Sans+Condensed:700|PT+Sans+Narrow:700|Raleway" rel="stylesheet">
+
+	<!-- fav icon -->
+	<link rel="icon" type="image/gif/png" href="assets/images/favicon.png">
+
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- jquery first then popper then js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+<body class="contact-body">
+
+	<div class="container-fluid p-0">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<a class="navbar-brand" href="index.html">
+				<img class="navicon img-fluid img-rounded img-thumbnail" src="assets/images/navicon.jpeg">
+				<span class="title">travel</span>
+				<span class="title secondtitle">&capture</span>
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link text-center" href="home.html"> Home </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link text-center" href="about.html"> About </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link text-center" href="gallery.html"> Gallery </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link text-center active" href="contact.html"> Contact </a>
+					</li>
+				</ul>
+			</div>
+		</nav>  <!--  end of nav -->
+	</div>
+
+	<div class="contact-container container-fluid p-0">
+		<div class="row">
+			<header class="contact-header col-12 col-md-12 col-lg-12">
+				<span class="contact-span text-left"> Contact Us </span>
+			</header>
+
+			<div class="map-container col-12 col-md-12 col-lg-6 px-4">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7795433719234!2d121.03232661428433!3d14.554595789831826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8fd941af2fb%3A0x48a3b52edabf9478!2sBuendia!5e0!3m2!1sen!2sph!4v1542758073712" width="100%" height="80%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div> <!-- end of left side -->
+
+			<div class="form-container col-12 col-md-12 col-lg-6 p-0">
+				<form class="contact-form">
+				
+					<div class="form-group row">
+						<label class="col-form-label col-md-3 col-12  my-0" for="name"> Name: </label>
+						<div class="col-md-6">
+							<input id="name" class="form-control input-sm" type="text" placeholder="Enter your FirstName">
+							<input id="name" class="form-control input-sm" type="text" placeholder="Enter your LastName">
+						</div>
+					</div> <!-- end username form group -->	
+		
+
+					<div class="form-group row">
+						<label class="col-form-label col-md-3  col-12 my-0" for="email"> E-mail Address: </label>
+						<div class="col-md-6 col-12">
+							<input id="email" class="form-control input-sm" type="email" placeholder="Enter your E-mail here">
+						</div>
+					</div> <!-- end email form group -->	
+
+					<div class="form-group row">
+						<label class="col-form-label col-md-3  col-12 my-0" for="contact"> Contact Number: </label>
+						<div class="col-md-6 col-12">
+							<input id="contact" class="form-control input-sm" type="number" placeholder="Enter your Contact Details here">
+						</div>
+					</div> <!-- end contact form group -->
+
+					<div class="form-group row">
+						<label class="col-form-label col-md-3  col-12 my-0" for="subject"> Subject: </label>
+						<div class="col-md-6 col-12">
+							<input id="subject" class="form-control input-sm" type="text" placeholder="Enter your Subject here">
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label class="col-form-label col-md-3  col-12 my-0" for="message"> Message: </label>
+						<div class="col-md-6 col-12">
+							<textarea id="message" class="form-control" placeholder="Enter your Message here"></textarea>
+						</div>
+					</div> <!-- end msg form group -->
+
+					<button class="btn m-0 contact-submit"> Submit </button>	
+
+				</form> <!-- end form -->
+
+			</div> <!-- end of right side -->
+
+		</div> <!-- end of row -->
+
+	</div> <!-- end of contact cont -->
+
+	<footer class="footer fixed-bottom">
+
+		<div class="row">
+			<div class="smedia col-12 col-md-4 text-center">
+				<a href="https://www.linkedin.com/" title="Linkedin" target="_blank"><i class="social fab fa-linkedin"></i></a>
+				<a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="social fab fa-facebook-square"></i></a>
+				<a href="https://www.instagram.com/jerico__concepcion" title="Instagram" target="_blank"><i class="social fab fa-instagram"></i></a>
+			</div>
+			<div class="col-12 col-md-4">
+				<p class="text-center mb-0 p-3">&copy; Copyright 2018 Travel & Capture - All Rights Reserved/p>
+			</div>
+			<div class="smedia col-12 col-md-4 text-center">
+				<a href="https://gitlab.com/tuitt/students/batch19/concepcion-jerico" title="Gitlab" target="_blank"><i class="social fab fa-gitlab"></i></a>
+				<a href="https://github.com/concepcion-jerico" title="Github" target="_blank"><i class="social fab fa-github"></i></a>
+				<a href="mailto:concepcion.jerico@gmail.com" title="Gmail" target="_blank"><i class="social fas fa-envelope"></i></a>
+			</div>
+
+		</div> <!-- end row -->
+
+	</footer>
+
+
+
+</body>
+</html>
